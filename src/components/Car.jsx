@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
+import Useeff from './Useeff';
 
 function car() {
     const [brand, setBrand] = useState("Ford");
@@ -9,6 +10,7 @@ function car() {
   
     return (
       <>
+      <Useeff/>
         <h1>My {brand}</h1>
         <p>
           It is a {color} {model} from {year}.
