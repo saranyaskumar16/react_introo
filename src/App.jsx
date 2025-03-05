@@ -16,6 +16,7 @@ import Unmountsam from './components/Unmountsam'
 import Car from './components/Car'
 import Clrusestate from './components/Clrusestate'
 import Useeff from './components/Useeff'
+import Useredu from './components/Useredu'
 {/* <link href="/src/App.css" rel="stylesheet"> */}
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
   <Route exact path='/Car' element={ <Car/>}/>
   <Route exact path='/Clrusestate' element={ <Clrusestate/>}/>
   <Route exact path='/Useeff' element={ <Useeff/>}/>
+  <Route exact path='/Useredu' element={ <Useredu/>}/>
  </Routes>
     </>
   )
